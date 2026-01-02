@@ -1,0 +1,13 @@
+{
+  "profiles": [
+    {
+      "name": "Default",
+      "selected": true,
+      "simple_modifications": {
+      },
+      "complex_modifications": {
+        "rules": []
+      }
+    }
+  ]
+}

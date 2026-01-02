@@ -1,0 +1,11 @@
+# Use a readable theme
+--theme="TwoDark"
+
+# Show line numbers & git changes
+--style="numbers,changes"
+
+# Always use paging
+--paging=auto
+
+# Respect .gitignore
+--ignore-case

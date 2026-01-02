@@ -1,0 +1,23 @@
+font-family = JetBrainsMono Nerd Font
+font-size = 14
+
+theme = dark
+window-padding-x = 10
+window-padding-y = 10
+
+cursor-style = block
+copy-on-select = true
+
+
+# Keybindings
+keybind = cmd+shift+c=copy
+keybind = cmd+shift+v=paste
+
+keybind = cmd+shift+n=new_window
+keybind = cmd+shift+w=close_window
+
+keybind = cmd+n=new_tab
+keybind = cmd+shift+]=next_tab
+keybind = cmd+shift+[=previous_tab
+
+keybind = cmd+shift+f=toggle_fullscreen

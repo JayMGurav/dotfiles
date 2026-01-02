@@ -1,0 +1,85 @@
+# =========== Core utils ==========
+
+# Version Control
+brew "git"            # Distributed version control system
+brew "gh"             # GitHub CLI
+brew "git-delta"      # Better git diff output
+brew "lazygit"        # Terminal UI for git
+
+# Dotfiles & Shell UX
+brew "stow"           # Dotfiles symlink manager
+brew "starship"       # Fast, cross-shell prompt
+brew "atuin"          # Advanced shell history
+brew "fzf"            # Fuzzy finder
+brew "zoxide"         # Smarter cd that learns usage
+
+# File & Text Utilities
+brew "bat"            # cat with syntax highlighting
+brew "eza"            # Modern ls replacement
+brew "fd"             # Simple find alternative
+brew "ripgrep"        # Fast recursive search
+brew "jq"             # JSON processor
+brew "yq"             # YAML processor
+brew "sd"             # Find & replace
+brew "tlrc"           # Example-based man pages
+brew "tree"           # Directory trees
+
+# System Monitoring
+brew "bottom"         # Interactive system monitor
+brew "procs"          # Modern ps
+brew "dust"           # Disk usage visualizer
+brew "dua-cli"        # Interactive disk usage analyzer
+
+# Networking & HTTP
+brew "httpie"         # Human-friendly HTTP client, curl replacement
+
+# Performance & Automation
+brew "hyperfine"      # Benchmarking
+brew "just"           # Task runner (modern make)
+brew "watchexec"      # Run commands on file changes
+
+# Environment & Core Tools
+brew "direnv"         # Per-project env vars
+brew "coreutils"     # GNU core utilities
+brew "openssl"       # SSL/TLS toolkit
+
+# Code Metrics
+brew "tokei"          # LOC counter
+
+# =========== Dev Tools ==========
+brew "nvm"
+brew "pyenv"
+brew "podman"
+brew "kubectl"
+
+
+
+
+
+# =========== Casks ==========
+
+# Browsers
+cask "brave-browser"
+
+# Editors & IDEs
+cask "visual-studio-code"
+cask "intellij-idea-ce"
+
+# Terminal & Shell
+cask "ghostty"
+
+# Productivity
+cask "raycast"
+cask "obsidian"
+
+# Media
+cask "vlc"
+
+# Keyboard & Input
+cask "karabiner-elements"
+
+
+# =========== Fonts ==========
+cask "font-fira-code"
+cask "font-jetbrains-mono"
+cask "font-iosevka"

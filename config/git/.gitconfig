@@ -1,0 +1,23 @@
+[user]
+    name = Jay Gurav
+    email = "jaymgurav@gmail.com"
+    username = jaymgurav
+[github]
+    user = jaymgurav
+[init]
+    defaultBranch = main
+
+[core]
+    pager = delta
+
+[delta]
+    side-by-side = true
+    navigate = true
+    line-numbers = true
+    syntax-theme = Solarized (dark)
+
+[alias]
+  st = status -sb
+  co = checkout
+  br = branch
+  lg = log --oneline --graph --decorate
