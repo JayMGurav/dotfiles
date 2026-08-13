@@ -6,6 +6,3 @@
 
 # Always use paging
 --paging=auto
-
-# Respect .gitignore
---ignore-case

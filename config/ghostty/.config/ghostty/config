@@ -1,7 +1,10 @@
 font-family = JetBrainsMono Nerd Font
 font-size = 14
 
-theme = dark
+# Ghostty's built-in default is already dark.
+# Browse alternatives with: ghostty +list-themes
+# theme = Catppuccin Mocha
+
 window-padding-x = 10
 window-padding-y = 10
 
@@ -10,8 +13,8 @@ copy-on-select = true
 
 
 # Keybindings
-keybind = cmd+shift+c=copy
-keybind = cmd+shift+v=paste
+keybind = cmd+shift+c=copy_to_clipboard
+keybind = cmd+shift+v=paste_from_clipboard
 
 keybind = cmd+shift+n=new_window
 keybind = cmd+shift+w=close_window

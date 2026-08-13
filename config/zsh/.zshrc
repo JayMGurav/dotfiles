@@ -1,7 +1,7 @@
 autoload -Uz compinit
 compinit -C
 
-export PATH="/opt/homebrew/bin:$PATH:$PATH"
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 
 # ============
 # NVM
@@ -25,8 +25,9 @@ eval "$(starship init zsh)"
 # ============
 # Atuin
 # ============
-eval "$(atuin init zsh)"
+# ATUIN_NOBIND must be set BEFORE init, or atuin binds the up-arrow itself
 export ATUIN_NOBIND="true"
+eval "$(atuin init zsh)"
 bindkey '^r' atuin-search
 
 # ============

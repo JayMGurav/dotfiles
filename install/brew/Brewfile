@@ -80,6 +80,9 @@ cask "karabiner-elements"
 
 
 # =========== Fonts ==========
-cask "font-fira-code"
-cask "font-jetbrains-mono"
-cask "font-iosevka"
+# Nerd Font variants are required: eza --icons and the starship glyphs
+# ( , , ) render as tofu without them. The plain (non-nerd) casks
+# do NOT contain those glyphs.
+cask "font-jetbrains-mono-nerd-font"   # matches ghostty font-family
+cask "font-fira-code-nerd-font"
+cask "font-iosevka-nerd-font"
